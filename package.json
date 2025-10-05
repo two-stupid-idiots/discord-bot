@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Configuration of our discord bot.",
+  "homepage": "https://github.com/two-stupid-idiots/discord-bot#readme",
+  "bugs": {
+    "url": "https://github.com/two-stupid-idiots/discord-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two-stupid-idiots/discord-bot.git"
+  },
+  "license": "MIT",
+  "author": "two-stupid-idiots",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.3",
+    "winston": "^3.18.3",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
